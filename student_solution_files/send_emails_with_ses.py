@@ -1,17 +1,3 @@
-"""
-    Lambda Function used to send emails via Amazon SES.
-    
-    Author: Explore Data Science Academy.
-    
-    Note:
-    ---------------------------------------------------------------------
-    The contents of this file should be added to a AWS  Lambda function 
-    created as part of the EDSA Cloud-Computing Predict. 
-    For further guidance around this process, see the README instruction 
-    file which sits at the root of this repo.
-    ---------------------------------------------------------------------
-
-"""
 
 # Lambda dependencies
 import boto3    # Python AWS SDK

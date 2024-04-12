@@ -1,18 +1,4 @@
-"""
-    Function used to match words in a supplied list with those in a AWS Comprehend
-    generated dictionary containing the key phrases. 
-    
-    Author: Explore Data Science Academy.
 
-    Note:
-    ---------------------------------------------------------------------
-    The contents of this file should be added to a AWS  Lambda function 
-    created as part of the EDSA Cloud-Computing Predict. 
-    For further guidance around this process, see the README instruction 
-    file which sits at the root of this repo.
-    ---------------------------------------------------------------------
-    
-"""
 
 # Function dependencies
 import numpy as np

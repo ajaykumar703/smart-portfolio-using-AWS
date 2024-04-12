@@ -1,25 +1,4 @@
-"""
-    Function used to construct an intelligent response to a given input message. 
-    
-    
-    Author: Explore Data Science Academy.
 
-    Note:
-    ---------------------------------------------------------------------
-    The contents of this file should be added to a AWS  Lambda function 
-    created as part of the EDSA Cloud-Computing Predict. 
-    For further guidance around this process, see the README instruction 
-    file which sits at the root of this repo.
-    ---------------------------------------------------------------------
-    
-    Description: This function uses the `find_max_sentiment` and `key_phrase_finder` 
-        functions to firstly extract the overwhelming sentiment of a message reported 
-        by AWS Comprehend, and secondly see if the key phrases determined by the service 
-        match with a supplied list of user phrases. Given the sentiment and the boolean
-        output of the `key_phrase_finder` function, we can then use conditional logic 
-        to craft an intelligent response.
-
-"""
 
 def email_response(name, critical_phrase_list, list_of_extracted_phrases, AWS_Comprehend_Sentiment_Dump):
 
