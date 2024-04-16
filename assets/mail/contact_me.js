@@ -24,7 +24,7 @@ $(function () {
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url: "/smartportfolio",
+                url: "https://0zqt3e11u1.execute-api.ap-south-1.amazonaws.com/smartportfolio",
                 // ------------------------------------------------------  
                 type: "POST",
                 data: JSON.stringify(json),
