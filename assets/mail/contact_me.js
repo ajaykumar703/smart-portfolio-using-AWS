@@ -23,8 +23,7 @@ $(function () {
             $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
             var json = {name: name, phone: phone, email: email, message: message}
             $.ajax({
-                // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
-                url: "https://0zqt3e11u1.execute-api.ap-south-1.amazonaws.com/smartportfolio",
+                url: "https://0zqt3e11u1.execute-api.ap-south-1.amazonaws.com/smartportfolio",  //API Gateway from AWS
                 // ------------------------------------------------------  
                 type: "POST",
                 data: JSON.stringify(json),
