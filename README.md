@@ -2,6 +2,8 @@
 # Smart portfolio using AWS
 
 #### EXPLORE Data Science Academy Cloud Computing Predict
+
+Check my website: **[Smart Portfolio](https://master.dhu929jn9e771.amplifyapp.com/)**
 ## Overview
 
 In this website you will make use of Python and AWS to create an intelligent data science portfolio website. At a high-level, the website will be hosted in a serverless manner on AWS; showcasing your amazing data science, machine learning and AI projects. 
@@ -33,7 +35,6 @@ In **Figure 1** the solutions architecture of this predict is depicted. Below fo
 >
 >- [x] **[AWS Comprehend:](https://aws.amazon.com/comprehend/)** An intelligent NLP  service capable of characterising sentiment and extracting key-phrases from the ingested text. Used to detect topics within the received webpage enquiries.
 
-Check my website: **[Smart Portfolio](https://master.dhu929jn9e771.amplifyapp.com/)**
 
 ## Instructions
 
