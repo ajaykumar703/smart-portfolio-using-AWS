@@ -4,6 +4,7 @@
 #### EXPLORE Data Science Academy Cloud Computing Predict
 
 Check my website: **[Smart Portfolio](https://master.dhu929jn9e771.amplifyapp.com/)**
+(Note: It works only for the AWS verified mails only so that it wont affect by spam emails. To avoid this we must convert our mail to business mail and approved by AWS.)
 ## Overview
 
 In this website you will make use of Python and AWS to create an intelligent data science portfolio website. At a high-level, the website will be hosted in a serverless manner on AWS; showcasing your amazing data science, machine learning and AI projects. 
