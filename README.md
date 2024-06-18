@@ -24,7 +24,7 @@ In **Figure 1** the solutions architecture of this predict is depicted. Below fo
 >      - Stores the enquiry details within an AWS DynamoDB instance for later retrieval.
 >      - Forwards the enquiry contents to AWS Comprehend to help formulate an intelligent response to the site visitor.
 >      - Provides logic to formulate an intelligent response based on AWS Comprehend output.
->      - Upon successful completion of these tasks, invokes AWS SES to send emails to the website enquirer and an automated marking email address hosted by EDSA.
+>      - Upon successful completion of these tasks, invokes AWS SES to send emails to the website enquirer and an automated marking email address.
 >      
 >- [x] **[AWS Amplify:](https://aws.amazon.com/amplify/)** Responsible for serving the static web content hosted in GitHub which becomes the basis of the student web page.
 >
